@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Tumor Detection using AI</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='style/style-home.css')}}">
+        <link href="http://fonts.googleapis.com/css?family=Nova+Round&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="wrap">
+            <header>
+                <div class="logo"> Health AI <hr class="logo-hr"></div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="{{url_for('home')}}">Home</a></li>
+                        <li><a href="{{url_for('about')}}">About</a></li>
+                        <li><a href="{{url_for('application')}}">Application</a></li>
+                    </ul>
+                </div>
+            </header>
+
+            <div class="content">
+                <h1>The future of AI starts now</h1>
+                <p>Project made by NAQI Amine</p>
+                <div class="btn-group">
+                    <a href="{{url_for('application')}}" class="color1">Check out the app</a>
+                    <a href="{{url_for('about')}}" class="learn">Learn more</a>
+                </div>
+            </div>
+            
+            <div class="our-partners">
+                <h3>Technologies Used</h3>
+                <hr>
+                <div class="our-partners-inner">
+                    <a href="https://www.python.org/"><img src="{{url_for('static', filename='src/pyth.png')}}" alt=""></a>
+                    <a href="https://keras.io/"><img src="{{url_for('static', filename='src/keras.png')}}" alt=""></a>
+                    <a href="https://opencv.org/"><img src="{{url_for('static', filename='src/op.png')}}" alt=""></a>
+                    <a href="https://flask.palletsprojects.com/en/2.0.x/"><img src="{{url_for('static', filename='src/flask.png')}}" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

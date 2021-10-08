@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>About the project</title>
+        <link href="http://fonts.googleapis.com/css?family=Nova+Round&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{{url_for('static', filename='style/style-about.css')}}">
+    </head>
+
+    <body>
+        <div class="wrap">
+            <header>
+                <div class="logo"> Health AI <hr class="logo-hr"></div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="{{url_for('home')}}">Home</a></li>
+                        <li><a href="{{url_for('about')}}">About</a></li>
+                        <li><a href="{{url_for('application')}}">Application</a></li>
+                    </ul>
+                </div>
+            </header>
+
+            <div class="body-text">
+                <h2>Informations about the project<hr></h2>
+                <br>
+                <p>
+                    Cancer, or tumors in general have always been one of the hardest diseases that a Human can fight, patient and doctor wise.
+                    It has one of the most painful and longest medecial treatment procedures that can be mentally, physically, and financially painful.
+                    Doctors and researchers always tried new technologies, and innovated their ways to find new and better methods to improve the efficiency
+                    of the treatement, making it easier for the patient, as well as making it safer.
+                </p>
+                <br>
+                <p>
+                    But one aspect was really hard to improve which is locating the tumor with pixel precision due to technological boundaries.
+                    Processing images with high resolution was a challenge to hardware that dated from decades ago, but not today.
+                    Hardware, thanks to many companies has improved greatly, and what was impossible 10 years ago, can be now achieved is minutes.
+                    Deep-Learning is a task that is run on Graphical Cards, and better GPUs will always lead to a better predictions, and faster compilations.
+                </p>
+                <br>
+                <p>
+                    This is a project that demonstrates the power of AI in the Medical field, which i personally consider
+                    one of the driving factors to a new era in the technological aspects of fighting tumors. 
+                    Combining the power of Deep-Learning, Image processing will and always lead to great results. 
+                </p>
+                <br>
+                <p>
+                    This project was made using Python, Keras, Flask, OpenCV, as a well as an Image database collected 
+                    from Kaggle. 
+                    The main objective of this project is not only to detect if the program is able to determine if the 
+                    brain MRI image contains a tumor, but also to locate that tumor in that same image.
+                </p>
+                <br>
+            </div>
+        </div>
+    </body>
+</html>

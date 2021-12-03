@@ -4,7 +4,7 @@
 
 To be able to run this project you should have multiple libraries installed using pip.
 
-pip3 install lib_name==version
+       pip3 install lib_name==version
  
 For my setup i used :
 

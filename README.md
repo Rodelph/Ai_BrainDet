@@ -1,4 +1,4 @@
-This project's goal is to be able to distinguish between brain images that contains tumors, and others that do not !
+## This project's goal is to be able to distinguish between brain images that contains tumors, and others that do not !
 
 ![alt text](./readmeImg/init.png)
 

@@ -1,5 +1,7 @@
 This project's goal is to be able to distinguish between brain images that contains tumors, and others that do not !
 
+![alt text](./readmeImg/init.png)
+
 To be able to run this project you should have :
  - tensorflow
  - tensorflow-gpu

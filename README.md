@@ -1,4 +1,4 @@
-## This project's goal is to be able to distinguish between brain images that contains tumors, and others that do not !
+<div align="center">## This project's goal is to be able to distinguish between brain images that contains tumors, and others that do not !</div>
 
 ![alt text](./readmeImg/init.png)
 
@@ -8,7 +8,6 @@ To be able to run this project you should have multiple libraries installed usin
  
 For my setup i used :
 <div align="center">
-
        
 Library         | Version
 -------------   | -------------

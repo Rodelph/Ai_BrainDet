@@ -7,7 +7,7 @@ To be able to run this project you should have multiple libraries installed usin
        pip3 install lib_name==version
  
 For my setup i used :
-
+<center>
 Library         | Version
 -------------   | -------------
 Tensorflow      | 2.5.1
@@ -19,6 +19,7 @@ Flask           | 2.0.1
 h5py            | 3.1.0
 numpy           | 1.19.2
 matplotlib      | 3.4.3
+</center>
 
 You also need CUDA, and CUDNN on your computer to be able to run the program. My version is 11.2 for cuda and 8.0.4 for cudnn.
  

@@ -14,6 +14,12 @@ To be able to run this project you should have :
  - matplotlib
  
 For my setup i used :
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
  - tensorflow 2.5.1
  - tensorflow-gpu 2.5.1
  - scikit-image 0.18.3

@@ -2,16 +2,9 @@
 
 ![alt text](./readmeImg/init.png)
 
-To be able to run this project you should have :
- - tensorflow
- - tensorflow-gpu
- - scikit-image
- - scikit-learn
- - Pillow
- - Flask
- - h5py
- - numpy
- - matplotlib
+To be able to run this project you should have multiple libraries installed using pip.
+
+pip3 install lib_name==version
  
 For my setup i used :
 

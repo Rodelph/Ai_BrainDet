@@ -24,4 +24,8 @@ For my setup i used :
  
  You also need CUDA, and CUDNN on your computer to be able to run the program. My version is 11.2 for cuda and 8.0.4 for cudnn.
  
+ Feel free to test the project by typing :
  
+      ~~~
+      cd /path_to_ai_flask_folder/python3 web.py
+      ~~~

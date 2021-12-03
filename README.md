@@ -28,6 +28,4 @@ For my setup i used :
  
  Feel free to test the project by typing :
  
-      ~~~
       cd /path_to_ai_flask_folder/python3 web.py
-      ~~~

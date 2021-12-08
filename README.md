@@ -25,7 +25,7 @@ matplotlib      | 3.4.3
        
 </div>
 
-You also need CUDA, and CUDNN on your computer to be able to run the program. My version is 11.2 for cuda and 8.0.4 for cudnn.
+You also need CUDA, and CUDNN on your computer to be able to run the program. My version is 11.2 for cuda and 8.2.1 for cudnn.
  
  Feel free to test the project by typing :
  

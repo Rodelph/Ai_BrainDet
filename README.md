@@ -19,7 +19,7 @@ Pillow          | 7.0.0
 Flask           | 2.0.1
 h5py            | 3.1.0
 numpy           | 1.19.2
-opencv          | 4.5.1
+opencv-python   | 4.5.1
 opencv-contrib  | 4.5.1
 matplotlib      | 3.4.3
        
